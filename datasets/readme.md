@@ -1,6 +1,11 @@
+<<<<<<< HEAD:datasets/readme.md
 ## 此目录用于存放比赛的数据集，但由于GitHub限制上传超过100M的文件，需要从下面的网站进行下载。
 
 ## https://www.kaggle.com/c/m5-forecasting-accuracy/data
+=======
+# 此目录用于存放比赛的数据集，但由于GitHub限制上传超过100M的文件，需要从下面的网站进行下载。
+# https://www.kaggle.com/c/m5-forecasting-accuracy/data
+>>>>>>> baf48dc0e02d83f508f3f39e7d030d389aa8db5b:datasets/readme.txt
 
 ## Note:
 
