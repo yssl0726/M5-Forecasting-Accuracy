@@ -1,5 +1,6 @@
 # Kaggle_M5_Forecasting_Accuracy_top4%
-This is a competition M5 forecasting - accuracy on kaggle. For details, please refer to the link: https://www.kaggle.com/c/m5-forecasting-accuracy/overview. This is my first time to take part in the kaggle competition. After two months of hard work, I finally ranked 172, top4% and won a silver medal.
+This is a competition M5 forecasting - accuracy on kaggle. For details, please refer to the link: https://www.kaggle.com/c/m5-forecasting-accuracy/overview. 
+This is my first time to take part in the kaggle competition. After two months of hard work, I finally ranked 172, top4% and won a silver medal.
 
 # Catalogue introduction
 dataset: The directory where the dataset is stored.  
