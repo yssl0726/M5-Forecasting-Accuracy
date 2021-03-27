@@ -4,7 +4,7 @@ from utils import *
 import os, sys, gc, time, warnings, pickle, psutil, random
 import lightgbm as lgb
 from multiprocessing import Pool 
-base_m5='../dataset/'
+base_m5='../dataset/'   
 USE_AUX=True
 AUX_MODELS='../models/'
 sub_dir = '../sub/'

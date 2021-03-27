@@ -9,7 +9,7 @@ store = pd.read_csv(sub_dir+'store.csv')
 ## We split the parts of each store separately
 CA1_store_final = store[store.id.str.endswith('CA_1_evaluation')]
 CA2_store_final = store[store.id.str.endswith('CA_2_evaluation')]
-CA3_store_final = store[store.id.str.endswith('CA_3_evaluation')]
+CA3_store_final = store[store.id.str.endswith('CA_3_evaluation')]   
 CA4_store_final = store[store.id.str.endswith('CA_4_evaluation')]
 
 TX1_store_final = store[store.id.str.endswith('TX_1_evaluation')]

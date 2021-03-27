@@ -23,7 +23,7 @@ scripts.py will execute the following documents in turn:
 
 
 # Overall framework
-1. First of all, we passed the fe.py Production features, including holiday features, price features, lag features, etc.  
+1. First of all, we passed the fe.py to product features, including holiday features, price features, lag features, etc.  
 2. There are three states in this data set, including CA, TX and WI. However, we only read the data of two states according to CA and WI, and use LGB for training, because we found that the effect of reading CA and WI state training is better than that of TX.  
 3. We read data from 10 stores, train them separately, and get the model of 10 stores. Finally, we forecast the sales volume of each store in 28 days.  
 4. We read the predictions of CA and WI states according to the stores of each state, and get the stores of CA_x and WI_x, respectively, and weighted fusion with the predicted stores of CA_x and WI_x to get the final result. The overall flow is shown below：  
