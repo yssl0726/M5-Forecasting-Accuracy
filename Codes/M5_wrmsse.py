@@ -64,7 +64,7 @@ sell_prices = pd.read_csv(data_pass+'sell_prices.csv')
 sell_prices = reduce_mem_usage(sell_prices)
 
 # 计算价格
-# 按照定义，只需要计算最近的 28 天售卖量（售卖数*价格），通过这个可以得到 weight
+# 按照定义，只需要计算最近的 28 天销售额（售卖数*价格），通过这个可以得到 weight
 # 可以不是 1886
 cols = ["d_{}".format(i) for i in range(1886-28, 1886)]
 data = sales[["id", 'store_id', 'item_id'] + cols]
