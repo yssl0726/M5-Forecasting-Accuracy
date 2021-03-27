@@ -3,12 +3,12 @@ This is a competition M5 forecasting - accuracy on kaggle. For details, please r
 This is my first time to take part in the kaggle competition. After two months of hard work, I finally ranked 172, top4% and won a silver medal.
 
 # Catalogue introduction
-datasets --> The directory where the dataset is stored. 
-features --> The pkl file for generating features is stored in this directory.  
-models --> The model files generated in the training process are placed in it.  
-sub --> The generated CSV file is placed in this directory.
-other --> It contains some of the things used in the competition.
-codes --> It contains the code used in this competition.
+ datasets --> The directory where the dataset is stored.     
+ features --> The pkl file for generating features is stored in this directory.  
+ models --> The model files generated in the training process are placed in it.  
+ sub --> The generated CSV file is placed in this directory.
+ other --> It contains some of the things used in the competition.
+ codes --> It contains the code used in this competition.
 
     utils.py --> Contains some of the functions used.  
     fe.py --> Execution via Python fe.py generate feature files to the features directory.  
