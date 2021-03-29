@@ -17,7 +17,7 @@ codes --> It contains the code used in this competition.
     fusion.py --> The state.csv and store.csv are weighted and fused according to different weights.  
     
 # How to run
-You can git clone to the local directory and execute python scripts.py at the terminal.
+You can git clone to the local directory and execute ***python scripts.py*** at the terminal.
 
 ***scripts.py*** will execute the following documents in turn:
 
