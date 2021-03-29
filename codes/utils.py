@@ -159,7 +159,7 @@ def df_parallelize_run(func, t_split):
     pool.join()
     return df
 
-def make_lag(LAG_DAY):
+def make_lag(base_test, LAG_DAY):
     lag_df = base_test[['id','d','sales']]
     col_name = 'sales_lag_'+str(LAG_DAY)
     lag_df[col_name] = lag_df.groupby(['id'])['sales'].transform(lambda x: x.shift(LAG_DAY)).astype(np.float16)
