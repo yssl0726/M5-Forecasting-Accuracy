@@ -32,4 +32,4 @@ You can git clone to the local directory and execute ***python scripts.py*** at 
 3. We read data from 10 stores, train them separately, and get the model of 10 stores. Finally, we forecast the sales volume of each store in 28 days.  
 4. We read the predictions of CA and WI states according to the stores of each state, and get the stores of CA_x and WI_x, respectively, and weighted fusion with the predicted stores of CA_x and WI_x to get the final result. The overall flow is shown below：  
 ![models_picture](./other/pictures/models.jpg)
-![models_picture](./other/pictures/Try Architecture.jpg)
+![models_picture](./other/pictures/Try Architecture.png)
