@@ -34,4 +34,4 @@ You can git clone to the local directory and execute ***python scripts.py*** at 
 ![models_picture](./other/pictures/models.jpg)
 
 # try framework
-![1](./other/pictures/Try Architecture.png)
+![models_picture](./other/pictures/Try Architecture.png)
